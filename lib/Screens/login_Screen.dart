@@ -21,6 +21,11 @@ class _SigingScreenState extends State<SigingScreen> {
               decoration: InputDecoration(
                 hintText: 'Name'
               ),
+            ),
+            TextField(
+              decoration: InputDecoration(
+                  hintText: 'Name'
+              ),
             )
           ],
         ),
