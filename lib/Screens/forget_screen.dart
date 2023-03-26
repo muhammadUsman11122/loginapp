@@ -8,7 +8,6 @@ void main() {
 class Forgotpassword extends StatelessWidget {
   Forgotpassword({Key? key}) : super(key: key);
 
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
