@@ -1,11 +1,9 @@
 import 'package:flutter/material.dart';
 class SigingScreen extends StatefulWidget {
   const SigingScreen({Key? key}) : super(key: key);
-
   @override
   State<SigingScreen> createState() => _SigingScreenState();
 }
-
 class _SigingScreenState extends State<SigingScreen> {
   @override
   Widget build(BuildContext context) {
@@ -19,12 +17,12 @@ class _SigingScreenState extends State<SigingScreen> {
           children: [
             TextField(
               decoration: InputDecoration(
-                hintText: 'Name'
+                  hintText: 'Name'
               ),
             ),
             TextField(
               decoration: InputDecoration(
-                  hintText: 'Name'
+                  hintText: 'password'
               ),
             )
           ],
